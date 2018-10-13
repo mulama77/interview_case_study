@@ -27,10 +27,10 @@ PROJECT_FOLDER
                            │  build.gradle
                            └──[src]      
                            │  └──[main]      
-                           │     └──[java]      
+                           │     └──[java]       (Backend application)
                            │     └──[resources]
                            │        │  application.properties #contains springboot cofigurations
-                           │     └──[frontend]
+                           │     └──[frontend]   (Frontend application)
                            │           │  package.json     
                            │           │  angular-cli.json   #ng build configurations)
                            │           └──[node_modules]
