@@ -55,9 +55,9 @@ Ensure you have this installed before proceeding further
 - Any console emulater or terminal
 
 ## About
-This is a simple ecommerce application with a RESTfull implementation of an ecommerce service.
+This is a simple ecommerce application with a RESTfull service implementation.
 The goal of the project is to 
-- Highlight techniques of makinga REST full app using [SpringBoot](https://projects.spring.io/spring-boot)
+- Highlight techniques of making a REST full app using [SpringBoot](https://projects.spring.io/spring-boot)
 - How to consume a RESTfull service and make a HTML5 based Single Page App using [Angular 4+](https://github.com/angular/angular)
 
 ### Features of the Project
