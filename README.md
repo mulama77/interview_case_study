@@ -87,7 +87,7 @@ when building the backend app (using maven) it will pickup the code from ```inte
 # Navigate to PROJECT_FOLDER/interview-case-study/src/main/frontend (should contain package.json )
 npm install
 # build the project (this will put the files under dist folder)
-ng build --prod --aot=true
+ng build
 ```
 
 ### Build Backend (SpringBoot Java)
