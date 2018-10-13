@@ -1,0 +1,99 @@
+
+
+<div class="row card-deck">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let order of productOrders">
+        <div class="card text-center">
+
+            <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4"> 
+                            <a href="#"><img class="card-img-top" src={{order.product.pictureUrl}} alt=""></a>
+                        </div>
+                
+                <div class="col-md-8">
+                    
+                    <h2>13</h2>
+                    <h5>{{order.product.name}}</h5>
+                    <div class="row">
+                            <div class="col-md-6">
+                                    <div>Bottle</div>
+                                    <div class="card-title">${{order.product.price}}</div>
+                                    <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
+                                            <input type="number" min="0" class="form-control" [(ngModel)]=order.quantity>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div>Case</div>
+                                    <div class="card-title">${{order.product.price * 36}}</div>
+                                    <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
+                                            <input type="number" min="0" class="form-control" [(ngModel)]=order.quantity>
+                                    </div>
+                            </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-4 padding-0">
+                                <button class="btn btn-primary">
+                                    Details
+                                </button>
+                            </div>
+                            <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
+                                <button class="btn btn-primary" (click)="addToCart(order)"
+                                        [disabled]="order.quantity <= 0">Add To Cart
+                                </button>
+                            </div>
+                            <div class="col-12" *ngIf="isProductSelected(order.product)">
+                                <button class="btn btn-primary btn-block"
+                                        (click)="removeFromCart(order)">Remove From Cart
+                                </button>
+                            </div>
+                    </div>
+
+
+                </div>
+                    <!--
+                    
+                    <h5 class="card-title">${{order.product.price}}</h5>
+                    <div class="row">
+ 
+                    </div>
+                    -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--
+<div class="row card-deck">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let order of productOrders">
+        <div class="card text-center">
+            <div class="card-header">
+                <h4>{{order.product.name}}</h4>
+            </div>
+            <div class="card-body">
+                <a href="#"><img class="card-img-top" src={{order.product.pictureUrl}} alt=""></a>
+                <h5 class="card-title">${{order.product.price}}</h5>
+                <div class="row">
+                    <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
+                        <input type="number" min="0" class="form-control" [(ngModel)]=order.quantity>
+                    </div>
+                    <div class="col-4 padding-0" *ngIf="!isProductSelected(order.product)">
+                        <button class="btn btn-primary" (click)="addToCart(order)"
+                                [disabled]="order.quantity <= 0">Add To Cart
+                        </button>
+                    </div>
+                    <div class="col-12" *ngIf="isProductSelected(order.product)">
+                        <button class="btn btn-primary btn-block"
+                                (click)="removeFromCart(order)">Remove From Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
