@@ -580,8 +580,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\n\Documents\jambobet3\tutorials\spring-boot-angular-ecommerce\src\main\frontend\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-module.exports = __webpack_require__(/*! C:\Users\n\Documents\jambobet3\tutorials\spring-boot-angular-ecommerce\src\main\frontend\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\n\Documents\jambobet3\angularjs-spring\interview-case-study\src\main\frontend\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+module.exports = __webpack_require__(/*! C:\Users\n\Documents\jambobet3\angularjs-spring\interview-case-study\src\main\frontend\src\styles.css */"./src/styles.css");
 
 
 /***/ })

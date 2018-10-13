@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\n\Documents\jambobet3\tutorials\spring-boot-angular-ecommerce\src\main\frontend\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Users\n\Documents\jambobet3\angularjs-spring\interview-case-study\src\main\frontend\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
