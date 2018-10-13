@@ -52,6 +52,7 @@ Ensure you have this installed before proceeding further
 - Node 6.0 or above,  
 - npm 5 or above,   
 - Angular-cli 1.6.3
+- Any console emulater or terminal
 
 ## About
 This is a simple ecommerce application with a RESTfull implementation of an ecommerce service.
