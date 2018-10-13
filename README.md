@@ -119,7 +119,11 @@ API (backend)     |  http://localhost:8080/api               |
 The below request will fetch existing products automatically inserted when the backend application was started
 
 ```bash
+#request
 curl -X GET --header 'Accept: application/json'  'http://localhost:8080/api/products'
+
+#response
+{"id":1,"name":"Breideker","price":17.9,"pictureUrl":"http://placehold.it/200x100"},{"id":2,"name":"Chardonnay","price":18.9,"pictureUrl":"http://placehold.it/200x100"},{"id":3,"name":"Gewurztraminer","price":22.9,"pictureUrl":"http://placehold.it/200x100"},{"id":4,"name":"Hukapapa Dessert Riesling","price":21.9,"pictureUrl":"http://placehold.it/200x100"},{"id":5,"name":"Late Harvest","price":21.9,"pictureUrl":"http://placehold.it/200x100"},{"id":6,"name":"Mirumiru (TM) Reserve","price":28.9,"pictureUrl":"http://placehold.it/200x100"},{"id":7,"name":"Mirumiru (TM) Rose","price":34.0,"pictureUrl":"http://placehold.it/200x100"},{"id":8,"name":"Pinota Gris","price":18.9,"pictureUrl":"http://placehold.it/200x100"},{"id":9,"name":"Pinota Noir","price":28.9,"pictureUrl":"http://placehold.it/200x100"}
 ```
 
 ## Licensing
