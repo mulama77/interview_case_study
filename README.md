@@ -2,6 +2,10 @@
 Simple ecommerce application built with front end (AngularJS) and back-end (Spring Boot)
 
 ## Getting started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+What things you need to install the software and how to install them
 
 Copy the `README-default.md` file for yourself and start editing! At the root of
 your project, run:
