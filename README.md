@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Technology Stack
 Component         | Technology
 ---               | ---
-Frontend          | [Angular 4](https://github.com/angular/angular)
+Frontend          | [Angular 4](https://github.com/angular/angular) (bootstrap)
 Backend (REST)    | [SpringBoot](https://projects.spring.io/spring-boot) (Java)
 REST Spec         | [Open API Standard](https://www.openapis.org/) 
 In Memory DB      | H2 
