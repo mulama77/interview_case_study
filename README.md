@@ -12,7 +12,7 @@ Backend (REST)    | [SpringBoot](https://projects.spring.io/spring-boot) (Java)
 REST Spec         | [Open API Standard](https://www.openapis.org/) 
 In Memory DB      | H2 
 Persistence       | JPA (Using Spring Data)
-Client Build Tools| [angular-cli](https://github.com/angular/angular-cli), Visual Studio Code, npm
+Client Build Tools| [angular-cli](https://github.com/angular/angular-cli), Visual Studio Code, npm,any console emulator or terminal
 Server Build Tools| Maven(Java) 
 
 ## Folder Structure
