@@ -1,4 +1,4 @@
-# interview case study
+# Case study
 Simple ecommerce application built with front end (AngularJS) and back-end (Spring Boot)
 
 ## Getting started
